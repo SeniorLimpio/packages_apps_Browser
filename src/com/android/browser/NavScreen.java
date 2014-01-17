@@ -72,7 +72,6 @@ public class NavScreen extends RelativeLayout
     TabAdapter mAdapter;
     int mOrientation;
     Point mSize;
-    boolean mNeedsMenu;
     HashMap<Tab, View> mTabViews;
 
     public NavScreen(Activity activity, UiController ctl, PhoneUi ui) {
