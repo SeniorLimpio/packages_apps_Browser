@@ -105,6 +105,8 @@ public interface UiController {
 
     void toggleUserAgent();
 
+    void toggleCookiesWhitelisted();
+
     BrowserSettings getSettings();
 
     boolean supportsVoice();
